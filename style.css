@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    background-color: #fff28f;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    color: #7D7D80;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 800px 450px;
+    position: relative;
+}
+
+
+.text-input textarea {
+
+    margin-left: 200px;
+    margin-top: 150px;
+    padding: 40px;
+    width: 800px;
+    min-height: 50px;
+    resize: none;
+    border: none;
+    outline: none;
+    color: #7D7D80;
+    background-color: transparent;
+    overflow: hidden;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+}
+
+
+.button input {
+    border-radius: 25px;
+    padding: 20px 80px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#criptBtn {
+    position: fixed;
+    left: 230px;
+    bottom: 60px;
+    color: #FFFAD3;
+    background-color: #98924D;
+}
+
+#decriptBtn {
+    background-color: #FFFAD3;
+    color: #98924D;
+    position: fixed;
+    bottom: 60px;
+    left: 570px;
+}
+
+#criptBtn:hover,
+#decriptBtn:hover,
+#copyButton:hover {
+    opacity: 0.8;
+}
+
+.aviso p {
+    color: #7D7D80;
+    font-weight: 500;
+}
+
+.aviso {
+    padding: 40px;
+    margin-left: 200px;
+    margin-top: 300px;
+}
+
+#copyButton {
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #98924D;
+    color: #FFFAD3;
+}
+
+
+.validation-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    left: 600px;
+    top: 200px;
+}
+
+/* 
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-color: #fff28f;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: #7D7D80;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-input textarea {
+    padding: 20px;
+    width: 100%;
+    height: 200px;
+    resize: none;
+    border: 2px solid #7D7D80;
+    outline: none;
+    color: #7D7D80;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.text-input textarea:focus {
+    border-color: #98924D;
+}
+
+.button input {
+    border-radius: 25px;
+    padding: 15px 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#criptBtn {
+    color: #FFFAD3;
+    background-color: #98924D;
+}
+
+#decriptBtn {
+    background-color: #FFFAD3;
+    color: #98924D;
+}
+
+#criptBtn:hover, #decriptBtn:hover {
+    opacity: 0.8;
+}
+
+.aviso p {
+    color: #7D7D80;
+    font-weight: 500;
+}
+
+.copiar button {
+    border-radius: 25px;
+    padding: 15px 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #98924D;
+    color: #FFFAD3;
+    cursor: pointer;
+}
+
+.copiar button:hover {
+    opacity: 0.8;
+}
+
+/* Screen reader only class for accessibility */
+/* .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+} */
